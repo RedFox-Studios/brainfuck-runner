@@ -1,0 +1,34 @@
+{
+    "name": "brainfuck-runner",
+    "version": "1.0.0",
+    "description": "A Brainfuck script runner for terminal",
+    "main": "src/index.js",
+    "type": "module",
+    "bin": {
+        "brainfuck-runner": "src/index.js"
+    },
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RedFox-Studios/brainfuck-runner.git"
+    },
+    "keywords": [
+        "brainfuck",
+        "cli",
+        "interpreter"
+    ],
+    "author": "RedFox-Studios",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/RedFox-Studios/brainfuck-runner/issues"
+    },
+    "homepage": "https://github.com/RedFox-Studios/brainfuck-runner#readme",
+    "dependencies": {
+        "chalk": "^5.4.1",
+        "commander": "^12.1.0",
+        "fs-extra": "^11.2.0",
+        "winston": "^3.17.0"
+    }
+}
