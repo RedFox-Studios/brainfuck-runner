@@ -273,7 +273,7 @@ const program = new Command();
 program
     .name('brainfuck-runner')
     .description('CLI to run Brainfuck scripts')
-    .version('1.0.0');
+    .version('2.0.0');
 
 /**
  * Run Command
