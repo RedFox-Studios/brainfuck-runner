@@ -20,19 +20,13 @@ A command-line tool for executing Brainfuck scripts with debugging capabilities 
 git clone https://github.com/RedFox-Studios/brainfuck-runner.git
 ```
 
-```markdown file="README.md"
-...
-```
-
 2. Navigate to the project directory:
-
 
 ```shellscript
 cd brainfuck-runner
 ```
 
 3. Install dependencies:
-
 
 ```shellscript
 npm install
@@ -51,13 +45,11 @@ npm start run <filename>
 
 2. List available scripts:
 
-
 ```shellscript
 npm start list
 ```
 
 3. Run with debug mode:
-
 
 ```shellscript
 npm start run <filename> -d
