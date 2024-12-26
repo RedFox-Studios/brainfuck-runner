@@ -66,16 +66,10 @@ When running in debug mode (-d flag), you can use the following commands:
 
 ### Example Scripts
 
-Place your Brainfuck scripts in the `/bf-scripts` directory. Here's a simple "Hello" script example:
+Place your Brainfuck scripts in the `/bf-scripts` directory. Here's a simple "Hello World" script example:
 
 ```plaintext
-+++++ +++++             # Set cell #0 to 10
-[
-    > +++++ +++++      # Add 10 to cell #1
-    < -                # Decrement cell #0
-]
-> +++++ ++             # Add 7 to cell #1 (70 + 7 = 77 = 'H')
-.                      # Print 'H'
+++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
 ```
 
 ### Breakpoints
